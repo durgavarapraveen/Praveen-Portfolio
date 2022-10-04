@@ -1,0 +1,255 @@
+body {
+    height: 100vh;
+    background-image: url(https://i.imgur.com/4IhByrk.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.title {
+    color: yellows;
+    width: 80vw;
+    font-size:  6vw;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+}
+.contact {
+    color: #080808;
+    margin-top: 5%;
+    font-size: 20px;
+    margin-bottom: 1vw;
+    margin-bottom: 5%;
+    background-color: rgb(10, 84, 145);
+    text-decoration: none;
+}
+.f4 {
+    display: flex;
+    flex-direction: row;
+
+}
+.title:hover {
+    color: crimson;
+}
+.name {
+    font-size: 4vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+    
+}
+.dp-image {
+    display: flex;
+    width:30vw;
+    height:40vh ;
+}
+.image {
+    margin: auto;
+    width: 16vw;
+    height: 16vw;
+    vertical-align: middle;
+    transition-delay: 1 ;
+    transition: transform 2s;
+}
+.flex {
+    
+    display: flex;
+    flex: row;
+}
+.sign {
+    text-align:right;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1vh;
+}
+.sign:hover {
+    transform: scale(1.5,1.5);
+    color: #080808;
+}
+.bi {
+    color:blue;
+    margin-top: 1vh;
+    text-align: center;
+    vertical-align: bottom;
+}
+.f1 {
+    display:flex;
+    flex-direction:column;
+    width: 70vw;
+}
+.logins {
+    width: 6vw;
+    height: 6vw;
+    vertical-align: middle;
+    margin-left: 18vw;
+    margin-top: 7vh;
+
+}
+.app {
+    margin-top: 7vh;
+    width: 6vw;
+    height: 6vw;
+    margin-left: 10vw;
+}
+.name:hover {
+    color: crimson;
+}
+.bi:hover {
+    color: crimson;
+}
+.button {
+    margin: auto;
+    margin-left: 10vw;
+    width: 20vw;
+    height: 7vh;
+    font-size: 3vw;
+    font-style: italic;
+    color: green;
+    text-decoration: none;
+}
+button:hover {
+    background-color: aqua;
+}
+.image :hover {
+    transform: scale(3,3);
+    cursor: pointer;
+}
+.logins:hover {
+    transform: scale(1.5,1.5);
+    cursor: pointer;
+}
+.app:hover {
+    transform: scale(1.5,1.5);
+    cursor: pointer;
+}
+.button:hover {
+    color: black;
+    height: 5vw;
+    width: 7.5vw;
+    cursor: pointer;
+    transition: width 1.5s height 1.5s;
+}
+.f2 {
+    display: flex;
+    flex-direction: row;
+}
+.about {
+    color: #080808;
+    margin-top: 5%;
+    font-size: 20px;
+    margin-bottom: 5%;
+    background-color: rgb(10, 84, 145);
+    text-decoration: none;
+    
+}
+.info {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20%;
+    font-size: x-large;
+    
+}
+.pic {
+    width: 50vw;
+    height: 50vh;
+}
+.f3 {
+    display: flex;
+    flex-direction: rows;
+}
+.aboutme {
+    font-size: 4vw;
+    margin: 5%;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(https://i.imgur.com/USRpyCw.jpeg);
+        background-attachment: fixed;
+    }
+    .dp-image {
+        display:flex;
+        width: 100vw;
+        height: 350px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .f1 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .image {
+        vertical-align: middle;
+        height: 300px;
+        width: 300px;
+    }
+    .title {
+        width: 65vw;
+        margin-top: 10%;
+        font-size: 10vw;
+        margin-top: 2vh;
+        text-align: center;
+    }
+    .name {
+        margin-top: 15%;
+        width: 100vw;
+        font-size: 30px;
+        text-align: center;
+    }
+    .bi {
+        color: #080808;
+        font-size: 20px;
+        width: 100vw;
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    .button {
+        margin-top: 30vh;
+        font-size: 8vw;
+        text-align: center;
+        color: #080808;
+    }
+    .f2 {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+    .logins {
+        margin-left: 8vw;
+        width: 12vw;
+        height: 12vw;
+    }
+    .app {
+        margin-left: 12vw;
+        height: 12vw;
+        bottom: 12vw;
+        vertical-align: middle;
+    }
+    .sign {
+        color: #bca109;
+        text-align: right;
+    }
+    .info {
+        font-size: 5vw;
+    }
+    .about {
+        font-size: 15px;
+        width: 60px;
+        height: 40px;
+        margin-top: 10%;
+    }
+    .contact {
+        font-size: 15px;
+        width: 100px;
+        height: 40px;
+        
+        margin-top: 10%;
+    }
+    .aboutme {
+        font-size: 8vw;
+        color: crimson;
+    }
+    
+}
